@@ -1,0 +1,93 @@
+/* universal margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+/* nav bar following sections */
+a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* styling the first button */
+.btn1 {
+  float: right;
+  padding: 0.5vw 4vh;
+  cursor: pointer;
+  border: none;
+  height: 6vh;
+  width: 9vw;
+  border-radius: 0.5vw;
+  background-color: lightseagreen;
+  color: steelblue;
+}
+
+/* giving the heading a specific color */
+span {
+  color: steelblue;
+}
+
+/* paragraph styling */
+.para {
+  padding: 0.2vw;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* navigation bar positioning  and styling*/
+.navigation-bar {
+  padding: 2vw;
+  overflow: hidden;
+  margin: 4vh;
+}
+.nav {
+  display: inline;
+  margin-left: 20vw;
+}
+.nav > a {
+  display: inline-block;
+  margin-left: 2vw;
+}
+/* ---/ */
+
+/* logo styling */
+.logo {
+  float: left;
+  padding: 0.1vh 3vh;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* both div positioning and styling */
+.left-div {
+  display: inline-block;
+  padding-left: 14vw;
+  margin-left: 8vw;
+}
+.right-div {
+  display: inline;
+  margin: 5vw;
+}
+.heading {
+  padding: 0.1vw;
+}
+.btn2 {
+  height: 8vh;
+  width: 15vw;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  margin: 1.5vw;
+}
+
+img {
+  cursor: pointer;
+}
+
+/* ---/ */
